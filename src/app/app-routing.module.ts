@@ -19,7 +19,7 @@ const routes: Routes = [
     component: PortfolioComponent
   },
   {
-    path: '',
+    path: '/',
     component: HomeComponent
   }
 ];
