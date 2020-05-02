@@ -1,0 +1,160 @@
+main {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.wrapper-about {
+    width: 100vw;
+    height: 100vh;
+    background: #1F2426;
+    padding: 10px;
+    font-family: 'bitter';
+
+
+}
+
+.name {
+    color: #B5DAD7;
+    font-size: 1rem;
+    
+}
+
+.line {
+    border: 1px solid #B5DAD7;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #B5DAD7;
+    border: 1px solid #B5DAD7;
+    padding: 0.1rem;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+
+.wrapper-skills {
+    padding-right: 0px;
+}
+
+.title-skills {
+    font-size: 0.8rem;
+    color: #66CC99;
+    padding-bottom: 5px;
+    
+}
+
+.skill-percentage {
+    color: #66CC99;
+    padding: 5px;
+    
+}
+
+.progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 10px;
+    width:100%;
+}
+
+.progress-value{
+    box-shadow: 0 10px 40px -10px #fff;
+    background: #66CC99;
+    height: 10px;
+    width: 0;
+}
+
+.progress-value.html {
+    animation: html 3s normal forwards;
+
+}
+
+.progress-value.css {
+    animation: css 3s normal forwards;
+
+}
+
+.progress-value.javascript {
+    animation: javascript 3s normal forwards;
+
+}
+
+.progress-value.angular {
+    animation: angular 3s normal forwards;
+
+}
+
+.progress-value.node {
+    animation: node 3s normal forwards;
+
+}
+
+.progress-value.git {
+    animation: git 3s normal forwards;
+
+}
+
+.progress-value.github {
+    animation: github 3s normal forwards;
+
+}
+
+.experience {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@keyframes html {
+    0% { width: 0; }
+    100% { width: 85%; }
+  }
+
+@keyframes css {
+    0% { width: 0; }
+    100% { width: 71%; }
+  }
+
+@keyframes javascript {
+    0% { width: 0; }
+    100% { width: 68%; }
+  }
+
+@keyframes angular {
+    0% { width: 0; }
+    100% { width: 80%; }
+}
+
+@keyframes node {
+    0% { width: 0; }
+    100% { width: 75%; }
+}
+
+@keyframes git {
+    0% { width: 0; }
+    100% { width: 90%; }
+}
+
+@keyframes github {
+    0% { width: 0; }
+    100% { width: 86%; }
+}
+
+.about-me {
+    color: #fff;
+    width: 70%;
+    padding: 10px;
+}
+
+.about-me h1 {
+    font-size: 1.2rem;
+}
+
+.about-me p {
+    font-size: 0.7rem;
+    padding: 10px;
+}
